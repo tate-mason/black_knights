@@ -1,0 +1,89 @@
+\documentclass[11pt]{article}
+
+% ── Packages ────────────────────────────────────────────────
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+\usepackage{setspace}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{float}
+% code packages
+\usepackage{listings}
+\usepackage{inconsolata}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true}
+\usepackage{csvsimple}
+
+% ── Hyperref setup ──────────────────────────────────────────
+\hypersetup{
+    colorlinks = true,
+    linkcolor  = black,
+    citecolor  = black,
+    urlcolor   = blue
+}
+
+% ── Theorem environments ────────────────────────────────────
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{assumption}{Assumption}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+% ── Spacing ─────────────────────────────────────────────────
+\onehalfspacing
+
+% ── Title block ─────────────────────────────────────────────
+\title{Extremist Populism and Labor Unions: Investigating the Black Knights' Impact on Union Participation
+}
+\author{Tate Mason}
+\date{\today}
+
+% ============================================================
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\section{Overview}
+
+The interwar period was one of great social and economic upheaval. Following the first world war, the global economy boomed, with American markets leading much of the growth. The Great Depression then brought this boom period to an abrupt end, plunging the country into destitution. Conjointly, there was much social change, with social equity and racial parity topics of discussion. We saw the Great Migration, where black Americans left the South in search of opportunity elsewhere. While some fought for such change and championed the transition from Civil War-era race relations towards more modern ones, many were not prepared for such a shift. From this, we saw a boom in populist-fascist ideology  and groups. The Ku-Klux-Klan returned after a hiatus of approximately 30 years, the advent of the radio brought about voices like Father Coughlin or Huey Long to the forefront. Much of their rhetoric was anti-semitic, anti-black, and anti-immigration. 
+
+A smaller group from this period were the Black Knights, primarily focused in Detroit and Fort Wayne, Michigan. An offshoot of the Klan, the Black Knights were formed in () by () as a group which celebrated the ideals of the Antebellum South through rituals and dress. Donning black robes rather than the white of the Klan, the Black Knights were a love letter to these conservative ideas to which () was so attached. However, in 1932, leadership changes brought the group from one which was primarily ritualistic, towards being more prone to action. Attacks on union leaders and political opponents took place throughout the 1930's and 1940's, before in 1942, the group attempted to bomb the mayor of a nearby town called Ecorse. This attempted attack led to the New York Times writing an article on them. 
+
+The timing of this article is of particular interest. From 1932 until the release of the article in 1942, the Black Knights had entrenched themselves into the auto unions and steel unions. This allowed them to easily recruit new members into their fraternity, and thus grow their numbers. I am curious if there is an effect of the NYT article on union membership. That is, were people avoiding the unions out of concern of Black Knight recruitment, and did the increase in awareness lead to them joining more freely?
+
+\section{Data}
+
+Using historical union records, I can determine if the union chapters in Detroit and Ft. Wayne changed differently than in other parts of Michigan or the Rust Belt. Using data from 1935-1949, I can have a clean pre and post period. Further, I can supplement by seeing if the effects of other, non-local, populist actors had any effect on union participation. The Klan was also concentrated in certain states, allowing me to check across impacted areas outside of Michigan.
+
+\section{Methodology}
+
+Using a differences-in-differences approach, I will test if there was a difference in unions in Fort Wayne and Detroit versus elsewhere in Michigan and in the country. Further, I can use the same design for Klan effects in places like Dallas.  
+
+I think using Callaway Sant'anna would be appropriate here, but am still considering. It is hard to hold all else equal given how much was going on during the period I am looking at (WW2, Great Depression, pot-war boom). 
+
+\section{Hurdles to Overcome}
+
+Ideally, I would begin my analysis in 1932 when () took over from (). This is proving difficult to find data on, with much of the data being stuck at 1935. This is an ongoing search, and I have some leads, but completeness of that data is still TBD. 
+
+The estimation design will need to be carefully considered. Again, this time period had a lot of moving parts, so accounting for everything in estimation will be difficult. Help with designs would be appreciated. 
+
+Finally, is the question itself too narrow? External validity will obviously be non-existent looking at this hyper-local effect, but there are perhaps ways to broaden it. Help here would also be appreciated.
+
+\section{Conclusion}
+
+In closing, I think this poses an interesting question which has not been researched: do extremist-populist groups impact more than just crime in a local area? This analysis would exploit the Black Knights' ties to local labor unions to test if there is any impact of the group's presence on union participation. Despite mild data concerns and research ambiguity, this is a project which excites me and provides a clear contribution to the historical economics and labor economics literature.
+
+\end{document}
